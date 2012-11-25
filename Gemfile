@@ -26,7 +26,7 @@ gem 'jquery-rails', '2.0.2'
 
 # required for cloudControl production environment with MySQL database
 group :production do
-    gem "mysql2", "~> 0.3.11"
+    gem 'sqlite3', '1.3.5'
 end
 
 # To use ActiveModel has_secure_password
