@@ -19,7 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: postgresql
   pool: 5
-  timeout: 5000
+  database: qudkrfle
+  host: horton.elephantsql.com
+  port: 5432
+  username: qudkrfle
+  password: BCLab5rZ9L6Iid_LKOSFH-jgUd6cHqNw
